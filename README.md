@@ -51,16 +51,10 @@ CHROMADB_URI=tu_uri_chromadb
 
 3. Ejecuta el script
 
-En esta prueba se han realizado 2 pruebas diferentes para la extracción de datos de 2 modelos de contratos distintos.
+En esta prueba se han realizado 2 pruebas diferentes para la extracción de datos de 2 modelos de contratos distintos. Selecciona la Opción 1 o 2 para ver la extracción de información de 2 modelos de contratos diferentes.
 
-Prueba 1:
 ```bash
-python contrato_test2.py
-```
-
-Prueba 2:
-```bash
-python contrato_test3.py
+python main.py
 ```
 
 ## Licencia

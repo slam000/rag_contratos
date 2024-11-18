@@ -21,16 +21,16 @@
     "direccion": "Calle CATALUNYA, 58, 2 1, 08840 VILADECANS, BARCELONA",
     "superficie": "40 m2",
     "ref_catastral": "8544903DF1784D0009BS",
-    "registro": "Registro de la Propiedad número 1 de Viladecans",
+    "registro": "Registro de la Propiedad número 1 de Viladecans, al tomo 1309, libro 665, folio 197",
     "finca": "6848"
   },
   "condiciones_economicas": {
-    "renta_mensual": "630 euros",
+    "renta_mensual": "630 €",
     "gastos_comunes": {
       "mensual": "40 euros",
       "anual": "480 euros"
     },
-    "impuestos": "203.95 euros",
+    "impuestos": "203,95 euros",
     "bonificaciones": {
       "primer_año": "100%",
       "segundo_año": "66%",
@@ -38,8 +38,8 @@
     }
   },
   "duracion": {
-    "plazo": "7 años",
+    "plazo": "siete (7) años",
     "fecha_inicio": "30 de marzo de 2020",
-    "fianza": "630 euros"
+    "fianza": "630 €"
   }
 }

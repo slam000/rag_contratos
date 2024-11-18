@@ -1,17 +1,13 @@
 import os
-from anthropic import Anthropic
 import json
 import pandas as pd
 from dotenv import load_dotenv
+from anthropic import Anthropic
 
-# 1. Cargar variables de entorno
 load_dotenv()
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
-
-# 2. Inicializar cliente de Anthropic
 anthropic = Anthropic(api_key=ANTHROPIC_API_KEY)
 
-# 3. Datos de prueba más realistas
 fragmentos_contrato = {
     "partes": """
     REUNIDOS
@@ -135,11 +131,9 @@ def main():
         print("\nDatos extraídos (JSON):")
         print(json.dumps(datos, indent=2, ensure_ascii=False))
         
-        # Guardar en archivo JSON
         with open('datos_contrato.json', 'w', encoding='utf-8') as f:
             json.dump(datos, f, indent=2, ensure_ascii=False)
         
-        # Crear DataFrame para visualización
         df_rows = []
         for key, value in datos.items():
             if isinstance(value, dict):
@@ -170,9 +164,9 @@ def main():
         print("\nDatos en formato tabla:")
         print(df.to_string(index=False))
         
-        # Guardar en CSV
+
         df.to_csv('datos_contrato.csv', index=False, encoding='utf-8')
-        
+
         print("\nArchivos generados: datos_contrato.json y datos_contrato.csv")
     else:
         print("No se pudieron extraer los datos")

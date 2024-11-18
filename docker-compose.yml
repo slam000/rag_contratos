@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rag_contratos:
+    build: .
+    container_name: rag_contratos
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - CHROMADB_URI=${CHROMADB_URI}
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    command: /bin/bash
