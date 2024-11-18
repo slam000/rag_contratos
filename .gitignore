@@ -23,4 +23,7 @@ venv/
 datos_contrato.csv
 datos_contrato.json
 ejemplo_extraido.txt
+
 ejemplos_contratos/
+ejemplos_contratos\Contract_2000-20000002-3.pdf
+ejemplos_contratos\Contract.pdf
