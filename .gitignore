@@ -19,3 +19,8 @@ build/
 
 # Entorno virtual
 venv/
+
+datos_contrato.csv
+datos_contrato.json
+ejemplo_extraido.txt
+ejemplos_contratos/

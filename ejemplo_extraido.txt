@@ -4,15 +4,15 @@ API Key configurada: Sí
 Respuesta de Claude:
 {
   "arrendador": "PROMONTORIA MACC 1X1 SOCIMI, S.A",
-  "cif_arrendador": "A88534359",
+  "cif_arrendador": "A12345678",
   "arrendatarios": [
     {
       "nombre": "Glenda Isabel Sumalave Zambrano",
-      "dni": "Y9028643F"
+      "dni": "Y0000000F"
     },
     {
       "nombre": "Erika Lizeth Herrera Granada",
-      "dni": "09231449P"
+      "dni": "12345678P"
     }
   ],
   "direccion": "CL DE BADAJOZ número 7, planta 1 y letra 1",
@@ -36,15 +36,15 @@ Datos parseados correctamente
 Datos extraídos:
 {
   "arrendador": "PROMONTORIA MACC 1X1 SOCIMI, S.A",
-  "cif_arrendador": "A88534359",
+  "cif_arrendador": "A12345678",
   "arrendatarios": [
     {
       "nombre": "Glenda Isabel Sumalave Zambrano",
-      "dni": "Y9028643F"
+      "dni": "Y1234567F"
     },
     {
       "nombre": "Erika Lizeth Herrera Granada",
-      "dni": "09231449P"
+      "dni": "12345678P"
     }
   ],
   "direccion": "CL DE BADAJOZ número 7, planta 1 y letra 1",
@@ -66,7 +66,7 @@ Datos extraídos:
 Tabla de datos:
                   Campo                                              Valor
 0            arrendador                   PROMONTORIA MACC 1X1 SOCIMI, S.A
-1        cif_arrendador                                          A88534359
+1        cif_arrendador                                          A12345678
 2         arrendatarios  [{'nombre': 'Glenda Isabel Sumalave Zambrano',...
 3             direccion         CL DE BADAJOZ número 7, planta 1 y letra 1
 4            superficie                                               66.0

@@ -18,11 +18,11 @@ fragmentos_contrato = {
     De una parte:
     D./Dña. ENRIQUE JIMENEZ MONTES con DNI 75140348S y domicilio a estos efectos en Plaza Manuel Gómez Moreno, nº 2, planta 16, Madrid, Madrid 28020 España.
     
-    El/La primero/a, en nombre y representación, en su condición de Apoderado, de la compañía mercantil PROMONTORIA MACC 1X1 SOCIMI, S.A, con domicilio social en Plaza Manuel Gómez Moreno, nº 2, planta 16, Madrid, Madrid 28020 España, e inscrita en el Registro Mercantil de Madrid, al tomo 39908, folio 109, hoja nº M-708813, inscripción y titular de CIF A88534359 (en adelante, el "Futuro Arrendador").
+    El/La primero/a, en nombre y representación, en su condición de Apoderado, de la compañía mercantil PROMONTORIA MACC XXX XXX, S.A, con domicilio social en Plaza Manuel Gómez Moreno, nº 2, planta 16, Madrid, Madrid 28020 España, e inscrita en el Registro Mercantil de Madrid, al tomo 39908, folio 109, hoja nº M-708813, inscripción y titular de CIF A12345678 (en adelante, el "Futuro Arrendador").
     
     De otra parte:
-    D./Dña. Glenda Isabel Sumalave Zambrano con DNI Y9028643F y domicilio a estos efectos en CL DE BADAJOZ, número 7, planta 1 y letra 1.
-    D./Dña. Erika Lizeth Herrera Granada con DNI 09231449P y domicilio a estos efectos en CL DE BADAJOZ, número 7, planta 1 y letra 1.
+    D./Dña. Glenda Isabel Sumalave Zambrano con DNI Y1234567F y domicilio a estos efectos en CL DE BADAJOZ, número 7, planta 1 y letra 1.
+    D./Dña. Erika Lizeth Herrera Granada con DNI 12345678P y domicilio a estos efectos en CL DE BADAJOZ, número 7, planta 1 y letra 1.
     """,
     
     "inmueble": """
