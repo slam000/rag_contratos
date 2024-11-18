@@ -1,0 +1,119 @@
+(venv) C:\Users\marcelo.sanchez\Desktop\rag_contratos_macc>python contrato_test.py
+Iniciando extracción de datos...
+API Key configurada: Sí
+Respuesta de Claude:
+{
+  "arrendador": "PROMONTORIA MACC 1X1 SOCIMI, S.A",
+  "cif_arrendador": "A88534359",
+  "arrendatarios": [
+    {
+      "nombre": "Glenda Isabel Sumalave Zambrano",
+      "dni": "Y9028643F"
+    },
+    {
+      "nombre": "Erika Lizeth Herrera Granada",
+      "dni": "09231449P"
+    }
+  ],
+  "direccion": "CL DE BADAJOZ número 7, planta 1 y letra 1",
+  "superficie": 66.0,
+  "referencia_catastral": "9567001VK2696N0004DR",
+  "registro_propiedad": {
+    "numero": 1,
+    "nombre": "ALCORCON",
+    "finca": 24602
+  },
+  "renta_mensual": 990.0,
+  "gastos_mensuales": {
+    "gastos_comunes": 70.0,
+    "ibi": 34.35,
+    "suministro_agua": 20.0
+  }
+}
+
+Datos parseados correctamente
+
+Datos extraídos:
+{
+  "arrendador": "PROMONTORIA MACC 1X1 SOCIMI, S.A",
+  "cif_arrendador": "A88534359",
+  "arrendatarios": [
+    {
+      "nombre": "Glenda Isabel Sumalave Zambrano",
+      "dni": "Y9028643F"
+    },
+    {
+      "nombre": "Erika Lizeth Herrera Granada",
+      "dni": "09231449P"
+    }
+  ],
+  "direccion": "CL DE BADAJOZ número 7, planta 1 y letra 1",
+  "superficie": 66.0,
+  "referencia_catastral": "9567001VK2696N0004DR",
+  "registro_propiedad": {
+    "numero": 1,
+    "nombre": "ALCORCON",
+    "finca": 24602
+  },
+  "renta_mensual": 990.0,
+  "gastos_mensuales": {
+    "gastos_comunes": 70.0,
+    "ibi": 34.35,
+    "suministro_agua": 20.0
+  }
+}
+
+Tabla de datos:
+                  Campo                                              Valor
+0            arrendador                   PROMONTORIA MACC 1X1 SOCIMI, S.A
+1        cif_arrendador                                          A88534359
+2         arrendatarios  [{'nombre': 'Glenda Isabel Sumalave Zambrano',...
+3             direccion         CL DE BADAJOZ número 7, planta 1 y letra 1
+4            superficie                                               66.0
+5  referencia_catastral                               9567001VK2696N0004DR
+6    registro_propiedad  {'numero': 1, 'nombre': 'ALCORCON', 'finca': 2...
+7         renta_mensual                                              990.0
+8      gastos_mensuales  {'gastos_comunes': 70.0, 'ibi': 34.35, 'sumini...
+
+Precios de Claude 3 Sonnet:
+
+Input: $0.008/1K tokens
+Output: $0.024/1K tokens
+
+consulta:
+
+1. Input (Tokens)
+
+Fragmentos del contrato: ~1,200 tokens
+
+Partes: ~400 tokens
+Inmueble: ~150 tokens
+Condiciones económicas: ~400 tokens
+Duración: ~250 tokens
+
+
+Instrucciones y estructura JSON: ~400 tokens
+Total input: ~1,600 tokens
+
+2. Output (Tokens)
+
+JSON estructurado: ~300 tokens
+
+Cálculo de Costes (Claude 3 Sonnet)
+
+Input: (1,600/1000) * $0.008 = $0.0128
+Output: (300/1000) * $0.024 = $0.0072
+Coste total por consulta: $0.02 (2 centavos)
+
+Para 100 contratos:
+$0.02 * 100 = $2.00
+
+Para 1,000 contratos:
+$0.02 * 1,000 = $20.00
+
+Para 10,000 contratos:
+$0.02 * 10,000 = $200.00
+
+En azure ayer 6 procesamientos 18€
+En 2023 12K
+En 2022 18-20K

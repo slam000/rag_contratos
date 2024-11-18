@@ -1,0 +1,23 @@
+Categoría,Subcategoría,Valor
+arrendador,nombre,"DIVARIAN PROPIEDAD, S.A."
+arrendador,cif,A-81.036.501
+arrendador,representantes,"Daniel Leganés Ferreras, 46840734S, Mercedes Paniagua Guijarro, 02648205P"
+arrendatarios,Arrendatario 1 - nombre,NABIL EL KHAYAT EL KHAYAT
+arrendatarios,Arrendatario 1 - dni,54029866Z
+arrendatarios,Arrendatario 2 - nombre,MOHAMED EL KHAYAT EL KHAYAT
+arrendatarios,Arrendatario 2 - dni,53322137H
+inmueble,direccion,"Calle CATALUNYA, 58, 2 1, 08840 VILADECANS, BARCELONA"
+inmueble,superficie,40 m2
+inmueble,ref_catastral,8544903DF1784D0009BS
+inmueble,registro,Registro de la Propiedad número 1 de Viladecans
+inmueble,finca,6848
+condiciones_economicas,renta_mensual,630 euros
+condiciones_economicas,gastos_comunes - mensual,40 euros
+condiciones_economicas,gastos_comunes - anual,480 euros
+condiciones_economicas,impuestos,203.95 euros
+condiciones_economicas,bonificaciones - primer_año,100%
+condiciones_economicas,bonificaciones - segundo_año,66%
+condiciones_economicas,bonificaciones - tercer_año,33%
+duracion,plazo,7 años
+duracion,fecha_inicio,30 de marzo de 2020
+duracion,fianza,630 euros
