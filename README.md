@@ -8,7 +8,7 @@ El objetivo de este proyecto es demostrar cómo se pueden extraer datos relevant
 
 ## Requisitos
 
-- Python 3.8 o superior
+- Python 3.11 o superior
 - Entorno virtual (recomendado)
 - Dependencias listadas en `requirements.txt`
 
